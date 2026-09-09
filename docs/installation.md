@@ -1,6 +1,6 @@
 # Installation Guide
 
-Complete step-by-step installation guide for  Weapon Scope System.
+Complete step-by-step installation guide for the Weapon Scope System.
 
 ---
 
@@ -13,7 +13,7 @@ Complete step-by-step installation guide for  Weapon Scope System.
 | **Server Build** | 5848+ | Latest stable |
 | **RedM Version** | 1.0+ | Latest |
 | **RAM** | 512MB | 1GB+ |
-| **Framework** | None (optional) | LXR-Core/RSG-Core |
+| **Framework** | None (optional) | RSG-Core |
 
 ### Supported Frameworks
 
@@ -30,7 +30,7 @@ Complete step-by-step installation guide for  Weapon Scope System.
 ```bash
 # 1. Download the resource from your source
 # 2. Extract the archive
-# 3. Rename the folder to: lxr-weapon-scopes
+# 3. Rename the folder to: weapon-scopes
 ```
 
 ⚠️ **CRITICAL:** The resource **MUST** be named `weapon-scopes` or it will not function!
@@ -173,7 +173,7 @@ rsg-inventory/html/images/
 #### 1. Basic Setup
 ```bash
 # 1. Ensure VORP Core and vorp_inventory are running
-# 2. Install lxr-weapon-scopes as per Quick Installation
+# 2. Install weapon-scopes as per Quick Installation
 ```
 
 #### 2. Run Database Script
@@ -219,7 +219,7 @@ SELECT * FROM items WHERE item = 'screwdriver';
 
 #### 1. Basic Setup
 ```bash
-# 1. Install lxr-weapon-scopes as per Quick Installation
+# 1. Install weapon-scopes as per Quick Installation
 # 2. System will auto-detect standalone mode
 ```
 
@@ -258,14 +258,14 @@ The system auto-detects your framework. To verify:
 
 ```lua
 -- Check server console on resource start
-[weapon-scopes] Framework detected: LXR-Core
+[weapon-scopes] Framework detected: VorpCore/RSGCore
 ```
 
 To force a specific framework:
 
 ```lua
 -- In config.lua
-Config.Framework = 'vorp'  -- Options: 'auto', 'lxr', 'rsg', 'vorp', 'standalone'
+Config.Framework = 'vorp'  -- Options: 'auto', 'rsg', 'vorp', 'standalone'
 ```
 
 ## If Error then fix
