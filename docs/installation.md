@@ -120,8 +120,7 @@ items = {
 #### 1. Basic Setup
 ```bash
 # 1. Ensure RSG-Core is installed and running
-# 2. Install lxr-weapon-scopes as per Quick Installation  
-# 3. System will auto-detect RSG-Core
+# 2. System will auto-detect RSG-Core
 ```
 
 #### 2. Add Items to RSG-Core
