@@ -92,7 +92,7 @@ Join your server and test:
 
 ## 🔧 Framework-Specific Installation
 
-### LXR-Core Installation
+### Core Installation
 
 #### Basic Setup
 ```bash
@@ -500,7 +500,7 @@ Use this checklist to verify complete installation:
 
 ### Pre-Installation
 - [ ] Server meets minimum requirements (Build 5848+)
-- [ ] Framework installed (if using LXR/RSG/VORP)
+- [ ] Framework installed (if using RSG/VORP)
 - [ ] Database access available (if using VORP)
 - [ ] Backup existing configuration
 
@@ -510,7 +510,7 @@ Use this checklist to verify complete installation:
 - [ ] Placed in resources directory
 - [ ] Added to server.cfg with correct load order
 - [ ] Ran database script (VORP only)
-- [ ] Configured framework items (LXR/RSG)
+- [ ] Configured framework items (RSG)
 
 ### Configuration
 - [ ] Reviewed config.lua
