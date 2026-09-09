@@ -13,7 +13,7 @@ Complete step-by-step installation guide for the Weapon Scope System.
 | **Server Build** | 5848+ | Latest stable |
 | **RedM Version** | 1.0+ | Latest |
 | **RAM** | 512MB | 1GB+ |
-| **Framework** | None (optional) | RSG-Core |
+| **Framework** | None (optional) | RSG-Core/VorpCore |
 
 ### Supported Frameworks
 
