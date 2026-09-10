@@ -59,7 +59,7 @@ Advanced weapon scope attachment system with multi-framework support. Allows pla
 ### 3. Server Configuration
 ```cfg
 # Add to your server.cfg
-ensure lxr-weapon-scopes
+ensure weapon-scopes
 ```
 
 ### 4. Framework Configuration (Optional)
